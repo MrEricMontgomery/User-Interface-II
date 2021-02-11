@@ -24,7 +24,7 @@ vertical-align: baseline;
 
 *{
     box-sizing:border-box;
-    /* border:1px solid grey; */
+    border:1px solid grey;
     max-width:100%;
 }
 
