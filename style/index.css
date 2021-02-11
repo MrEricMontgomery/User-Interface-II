@@ -48,16 +48,43 @@ section {
   padding: 4% 0;
 }
 
-/* Nav */
+/* Nav and Name at top */
 
 nav {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   /* position:fixed; */
-  width:100%;
-  top:0;
-  background-color:rgba(255, 255, 255, 0.8);
-  align-items:center;
-  height:10vh;
+  width: 100%;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  align-items: center;
+  height: 10vh;
   z-index: 999;
 }
+
+.links {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myNameTop {
+  width: 12%;
+  margin-left: 3%;
+}
+
+/* Header with image background */
+
+#topBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-image: url("../images/sleeping_squirrel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2%;
+}
+
