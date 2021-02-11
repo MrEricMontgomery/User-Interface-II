@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&display=swap');
+
 /* CSS Reset */
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
@@ -26,6 +28,7 @@ vertical-align: baseline;
     max-width:100%;
 }
 
+/* General styles */
 html {
   font-size:62.5%;
 }
@@ -40,12 +43,38 @@ a {
   text-decoration:none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   letter-spacing: 3px;
+  font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size:2.5rem;
 }
 
 section {
   padding: 4% 0;
+}
+
+a {
+  text-decoration:none;
+  letter-spacing:3px;
+  color:#4F4F4F;
+  font-family: 'Mukta', sans-serif;
+}
+
+a:hover {
+  color:#FFF;
+  background-color:#4F4F4F;
 }
 
 /* Nav and Name at top */
@@ -53,7 +82,6 @@ section {
 nav {
   display: flex;
   justify-content: space-between;
-  /* position:fixed; */
   width: 100%;
   top: 0;
   background-color: rgba(255, 255, 255, 0.8);
@@ -70,8 +98,22 @@ nav {
 }
 
 .myNameTop {
-  width: 12%;
+  width: 20%;
   margin-left: 3%;
+}
+
+.myNameTop a {
+  text-decoration:none;
+  letter-spacing:3px;
+  color:#4F4F4F;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 800;
+  transition: 1s;
+}
+
+.myNameTop a:hover {
+  color:#FFF;
+  background-color:#4f4f4f70;
 }
 
 /* Header with image background */
@@ -80,7 +122,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 50vh;
   background-image: url("../images/sleeping_squirrel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -88,3 +130,28 @@ nav {
   margin-top: 2%;
 }
 
+.title h1 {
+  color: #fff;
+  background-color:#4f4f4f6e;
+  font-weight: 800;
+}
+
+.title a {
+  display: flex;
+  justify-content: center;
+  background-color:#0f691e85;
+  color: #fff;
+  font-weight: 800;
+  transition: 1s;
+}
+
+.title a:hover {
+  background-color:#0f691e;
+}
+
+/* Project Images Container */
+
+#projects .containerTwo {
+  display: flex;
+
+}
