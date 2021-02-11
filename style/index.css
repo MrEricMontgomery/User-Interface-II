@@ -74,7 +74,7 @@ a {
 
 a:hover {
   color:#FFF;
-  background-color:#4F4F4F;
+  background-color:#0f691e63;
 }
 
 /* Nav and Name at top */
@@ -112,8 +112,7 @@ nav {
 }
 
 .myNameTop a:hover {
-  color:#FFF;
-  background-color:#4f4f4f70;
+  background-color:#0f691e63;
 }
 
 /* Header with image background */
@@ -151,7 +150,63 @@ nav {
 
 /* Project Images Container */
 
-#projects .containerTwo {
+div.images {
   display: flex;
+  flex-flow: column;
+  justify-content:space-evenly;
+}
 
+div.images div.row {
+  display: flex;
+  flex-flow: row;
+  justify-content:center;
+  align-content: space-around;
+  width: 99%;
+  margin: .5% .5%;
+  padding: 1% 1%;
+}
+
+.row a {
+  background-color:#0f691e85;
+  color: #000;
+  font-weight: 800;
+  transition: 1s;
+}
+
+.row a:hover {
+  color: #fff;
+  background-color:#0f691e;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color:#0f691e83;
+  padding 5% 5%;
+}
+
+footer div {
+  margin: 1% 0;
+  padding: 1%;
+}
+
+#contact a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 2.5rem;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  transform: rotate(-10deg);
+  display: inline-block;
+  margin-top: -15px;
+  transition: .3s;
+}
+
+#contact a:hover {
+  transform: rotate(10deg);
+  background: yellow;
+  color: black;
 }
