@@ -24,7 +24,7 @@ vertical-align: baseline;
 
 *{
     box-sizing:border-box;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     max-width:100%;
 }
 
@@ -112,7 +112,8 @@ nav {
 }
 
 .myNameTop a:hover {
-  background-color:#0f691e63;
+  color:green;
+  background-color: whitesmoke;
 }
 
 /* Header with image background */
@@ -184,7 +185,7 @@ footer {
   justify-content: space-around;
   align-content: center;
   background-color:#0f691e83;
-  padding 5% 5%;
+  padding: 3% 3%;
 }
 
 footer div {
