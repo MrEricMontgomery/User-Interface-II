@@ -479,3 +479,28 @@ footer div {
     color: black;
   }
 }
+
+@media (max-width: 360px){
+  .img {
+    width: 46%;
+    height: 15vh;
+    margin: 1% 2.5%;
+    z-index: 1000;
+  }
+
+  #contact a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    transform: none;
+    margin-top: -15px;
+  }
+  
+  #contact a:hover {
+    background: yellow;
+    color: black;
+  }
+}
